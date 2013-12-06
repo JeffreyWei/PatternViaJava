@@ -4,7 +4,8 @@
     <option name="FILTER_RESOLVED_ITEMS" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="">
+    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="add state pattern diagram&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/diagram.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Client.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementA.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementB.java" />
@@ -904,7 +905,7 @@
       <workItem from="1386205427965" duration="3850000" />
       <workItem from="1386220981339" duration="2855000" />
       <workItem from="1386230856821" duration="3217000" />
-      <workItem from="1386292070096" duration="3722000" />
+      <workItem from="1386292070096" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="add README">
       <created>1386233287486</created>
@@ -914,11 +915,19 @@
       <created>1386293930055</created>
       <updated>1386293930055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add state pattern diagram&#10;">
+      <created>1386296102810</created>
+      <updated>1386296102810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add state pattern diagram&#10;">
+      <created>1386296139332</created>
+      <updated>1386296139332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52568000" />
+    <option name="totallyTimeSpent" value="52638000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -986,7 +995,8 @@
     </option>
     <MESSAGE value="add README" />
     <MESSAGE value="fix bug:State pattern&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug:State pattern&#10;" />
+    <MESSAGE value="add state pattern diagram&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add state pattern diagram&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
