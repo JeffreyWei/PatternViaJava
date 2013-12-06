@@ -10,6 +10,6 @@ public class Client {
 		Context context = new Context();
 		context.setState(new StateA());
 		context.request();
-		//context.request();
+		context.request();
 	}
 }

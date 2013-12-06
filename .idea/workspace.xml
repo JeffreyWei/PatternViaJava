@@ -4,7 +4,14 @@
     <option name="FILTER_RESOLVED_ITEMS" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="" />
+    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="add README">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PatternViaJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,6 +72,36 @@
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java" line="10" class="com.jeffrey.pattern.state.Client" package="com.jeffrey.pattern.state">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" line="11" class="com.jeffrey.pattern.state.StateA" package="com.jeffrey.pattern.state">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" line="15" class="com.jeffrey.pattern.state.Context" package="com.jeffrey.pattern.state">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -80,6 +117,25 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <method_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java" line="17" class="com.jeffrey.pattern.state.State" package="com.jeffrey.pattern.state">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </method_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,53 +146,98 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+            <state line="14" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/com.jeffrey.pattern.abstractmethod" pinned="false" current="true" current-in-tab="true">
-        <entry file="uml://JAVA/com.jeffrey.pattern.abstractmethod">
+      <file leaf-file-name="JAVA/com.jeffrey.pattern.state" pinned="false" current="true" current-in-tab="true">
+        <entry file="uml://JAVA/com.jeffrey.pattern.state">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>com.jeffrey.pattern.abstractmethod</OriginalElement>
+              <OriginalElement>com.jeffrey.pattern.state</OriginalElement>
               <nodes>
-                <node x="0.0" y="157.0">com.jeffrey.pattern.abstractmethod.ConcreteClassA</node>
-                <node x="150.2" y="289.0">com.jeffrey.pattern.abstractmethod.Client</node>
-                <node x="199.99999999999997" y="157.0">com.jeffrey.pattern.abstractmethod.ConcerteClassB</node>
-                <node x="183.4833333333333" y="0.0">com.jeffrey.pattern.abstractmethod.AbstractClass</node>
+                <node x="117.05128205128206" y="366.0">com.jeffrey.pattern.state.StateB</node>
+                <node x="" y="">com.jeffrey.pattern.state.Context</node>
+                <node x="59.66666666666667" y="0.0">com.jeffrey.pattern.state.State</node>
+                <node x="20.333333333333343" y="580.0">com.jeffrey.pattern.state.Client</node>
+                <node x="116.78846153846155" y="473.0">com.jeffrey.pattern.state.StateA</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="com.jeffrey.pattern.abstractmethod.Client" target="com.jeffrey.pattern.abstractmethod.AbstractClass">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
+                <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.Context">
+                  <point x="-52.0" y="-28.5" />
+                  <point x="169.05128205128204" y="346.0" />
+                  <point x="171.5" y="346.0" />
+                  <point x="73.5" y="66.5" />
                 </edge>
-                <edge source="com.jeffrey.pattern.abstractmethod.Client" target="com.jeffrey.pattern.abstractmethod.ConcreteClassA">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
+                <edge source="com.jeffrey.pattern.state.Client" target="com.jeffrey.pattern.state.Context">
+                  <point x="0.0" y="-28.5" />
+                  <point x="120.33333333333334" y="555.0" />
+                  <point x="95.21794871794873" y="555.0" />
+                  <point x="95.21794871794873" y="336.0" />
+                  <point x="73.5" y="336.0" />
+                  <point x="-24.5" y="66.5" />
                 </edge>
-                <edge source="com.jeffrey.pattern.abstractmethod.ConcreteClassA" target="com.jeffrey.pattern.abstractmethod.AbstractClass">
-                  <point x="0.0" y="-41.0" />
-                  <point x="90.0" y="132.0" />
-                  <point x="216.81666666666663" y="132.0" />
-                  <point x="-66.66666666666667" y="53.5" />
+                <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.StateB">
+                  <point x="-52.0" y="-28.5" />
+                  <point x="168.78846153846155" y="448.0" />
+                  <point x="143.05128205128204" y="448.0" />
+                  <point x="-78.0" y="28.5" />
                 </edge>
-                <edge source="com.jeffrey.pattern.abstractmethod.ConcerteClassB" target="com.jeffrey.pattern.abstractmethod.AbstractClass">
-                  <point x="0.0" y="-41.0" />
-                  <point x="290.0" y="132.0" />
-                  <point x="283.4833333333333" y="132.0" />
-                  <point x="0.0" y="53.5" />
+                <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.Context">
+                  <point x="-86.66666666666666" y="-28.5" />
+                  <point x="134.1217948717949" y="448.0" />
+                  <point x="106.55128205128206" y="448.0" />
+                  <point x="106.55128205128206" y="346.0" />
+                  <point x="122.5" y="346.0" />
+                  <point x="24.5" y="66.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.Context" target="com.jeffrey.pattern.state.State">
+                  <point x="-73.5" y="-66.5" />
+                  <point x="24.5" y="153.0" />
+                  <point x="78.66666666666667" y="153.0" />
+                  <point x="-95.0" y="66.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.Client" target="com.jeffrey.pattern.state.StateA">
+                  <point x="66.66666666666669" y="-28.5" />
+                  <point x="187.00000000000003" y="555.0" />
+                  <point x="220.78846153846155" y="555.0" />
+                  <point x="0.0" y="28.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.State">
+                  <point x="86.66666666666666" y="-28.5" />
+                  <point x="307.4551282051282" y="448.0" />
+                  <point x="335.5512820512821" y="448.0" />
+                  <point x="335.5512820512821" y="153.0" />
+                  <point x="268.6666666666667" y="153.0" />
+                  <point x="95.0" y="66.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.StateA">
+                  <point x="78.0" y="28.5" />
+                  <point x="299.05128205128204" y="448.0" />
+                  <point x="272.78846153846155" y="448.0" />
+                  <point x="51.99999999999999" y="-28.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.State" target="com.jeffrey.pattern.state.Context">
+                  <point x="19.0" y="66.5" />
+                  <point x="192.66666666666669" y="163.0" />
+                  <point x="171.5" y="163.0" />
+                  <point x="73.5" y="-66.5" />
+                </edge>
+                <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.State">
+                  <point x="52.0" y="-28.5" />
+                  <point x="273.05128205128204" y="163.0" />
+                  <point x="230.66666666666669" y="163.0" />
+                  <point x="57.0" y="66.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.907103825136612" x="195.5" y="173.0" />
-              <SelectedNodes>
-                <node>com.jeffrey.pattern.abstractmethod.AbstractClass</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="0.5449010654490106" x="168.90083798882688" y="338.5" />
+              <SelectedNodes />
               <Categories>
                 <Category>Fields</Category>
                 <Category>Methods</Category>
@@ -147,29 +248,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/AbstractClass.java">
+      <file leaf-file-name="StateA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+            <state line="7" column="31" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteClassA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcreteClassA.java">
+      <file leaf-file-name="StateB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="108" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="8" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcerteClassB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcerteClassB.java">
+      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+            <state line="16" column="25" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="19" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,9 +294,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/ChineseGovernment.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Template.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/bridge/Blue.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/factory/factorymethod/Client.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Colleague.java" root0="SKIP_INSPECTION" />
@@ -191,8 +307,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/facade/Method2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/facade/Facade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/facade/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/flyweight/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/flyweight/Foo.java" />
@@ -228,10 +342,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/Government.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/TravelStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/AirplaneStrategy.java" />
@@ -242,6 +352,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcreteClassA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcerteClassB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/Client.java" />
+        <option value="$PROJECT_DIR$/Template.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java" />
       </list>
     </option>
   </component>
@@ -299,7 +415,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -405,6 +521,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternViaJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternViaJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -430,7 +576,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -445,7 +591,7 @@
       <recent name="D:\WorkSpaceII\Intellij IDEA\PatternViaJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration default="false" name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -782,9 +928,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client (5)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Client (3)" />
         <item index="4" class="java.lang.String" itemvalue="Application.Client (2)" />
       </list>
@@ -832,11 +978,18 @@
       <workItem from="1386158178593" duration="2883000" />
       <workItem from="1386205427965" duration="3850000" />
       <workItem from="1386220981339" duration="2855000" />
+      <workItem from="1386230856821" duration="3217000" />
+      <workItem from="1386292070096" duration="1538000" />
     </task>
+    <task id="LOCAL-00001" summary="add README">
+      <created>1386233287486</created>
+      <updated>1386233287487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45629000" />
+    <option name="totallyTimeSpent" value="50384000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -860,28 +1013,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63106793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72977346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2511381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19802731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -902,21 +1055,17 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/adapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="361" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="21" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2736" />
@@ -1068,9 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="116" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
+        <state line="8" column="27" selection-start="116" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Person1.java">
@@ -1085,9 +1232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/MediatorImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="665">
-          <folding />
-        </state>
+        <state line="17" column="27" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Colleague.java">
@@ -1097,9 +1242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="10" column="5" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Client.java">
@@ -1156,37 +1299,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/ChineseGovernment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
+        <state line="7" column="49" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/ChinesePeople.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="7" column="37" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="47" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="494">
-          <folding />
-        </state>
+        <state line="17" column="47" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
+        <state line="15" column="38" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/Government.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="665">
-          <folding />
-        </state>
+        <state line="24" column="42" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="665" />
       </provider>
     </entry>
     <entry file="uml://JAVA/com.jeffrey.pattern.observer">
@@ -1227,84 +1360,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="399">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="37" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/TravelStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="97" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
+        <state line="7" column="36" selection-start="97" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/AirplaneStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="105" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
+        <state line="12" column="1" selection-start="105" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/TrainStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="12" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/BicycleStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
+        <state line="10" column="45" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/strategy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <folding />
-        </state>
+        <state line="12" column="24" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
       </provider>
     </entry>
     <entry file="uml://JAVA/com.jeffrey.pattern.strategy">
@@ -1411,14 +1494,6 @@
           </nodes>
           <notes />
           <edges>
-            <edge source="com.jeffrey.pattern.abstractmethod.Client" target="com.jeffrey.pattern.abstractmethod.AbstractClass">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.jeffrey.pattern.abstractmethod.Client" target="com.jeffrey.pattern.abstractmethod.ConcreteClassA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="com.jeffrey.pattern.abstractmethod.ConcreteClassA" target="com.jeffrey.pattern.abstractmethod.AbstractClass">
               <point x="0.0" y="-41.0" />
               <point x="90.0" y="132.0" />
@@ -1432,10 +1507,150 @@
               <point x="0.0" y="53.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.907103825136612" x="195.5" y="173.0" />
+          <settings layout="Hierarchic Group" zoom="0.907103825136612" x="196.0" y="173.0" />
           <SelectedNodes>
             <node>com.jeffrey.pattern.abstractmethod.AbstractClass</node>
           </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="439" selection-end="439" vertical-scroll-proportion="-8.233334" vertical-offset="57" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jeffrey.pattern.state">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jeffrey.pattern.state</OriginalElement>
+          <nodes>
+            <node x="117.05128205128206" y="366.0">com.jeffrey.pattern.state.StateB</node>
+            <node x="" y="">com.jeffrey.pattern.state.Context</node>
+            <node x="59.66666666666667" y="0.0">com.jeffrey.pattern.state.State</node>
+            <node x="20.333333333333343" y="580.0">com.jeffrey.pattern.state.Client</node>
+            <node x="116.78846153846155" y="473.0">com.jeffrey.pattern.state.StateA</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.Context">
+              <point x="-52.0" y="-28.5" />
+              <point x="169.05128205128204" y="346.0" />
+              <point x="171.5" y="346.0" />
+              <point x="73.5" y="66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.Client" target="com.jeffrey.pattern.state.Context">
+              <point x="0.0" y="-28.5" />
+              <point x="120.33333333333334" y="555.0" />
+              <point x="95.21794871794873" y="555.0" />
+              <point x="95.21794871794873" y="336.0" />
+              <point x="73.5" y="336.0" />
+              <point x="-24.5" y="66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.StateB">
+              <point x="-52.0" y="-28.5" />
+              <point x="168.78846153846155" y="448.0" />
+              <point x="143.05128205128204" y="448.0" />
+              <point x="-78.0" y="28.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.Context">
+              <point x="-86.66666666666666" y="-28.5" />
+              <point x="134.1217948717949" y="448.0" />
+              <point x="106.55128205128206" y="448.0" />
+              <point x="106.55128205128206" y="346.0" />
+              <point x="122.5" y="346.0" />
+              <point x="24.5" y="66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.Context" target="com.jeffrey.pattern.state.State">
+              <point x="-73.5" y="-66.5" />
+              <point x="24.5" y="153.0" />
+              <point x="78.66666666666667" y="153.0" />
+              <point x="-95.0" y="66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.Client" target="com.jeffrey.pattern.state.StateA">
+              <point x="66.66666666666669" y="-28.5" />
+              <point x="187.00000000000003" y="555.0" />
+              <point x="220.78846153846155" y="555.0" />
+              <point x="0.0" y="28.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.StateA" target="com.jeffrey.pattern.state.State">
+              <point x="86.66666666666666" y="-28.5" />
+              <point x="307.4551282051282" y="448.0" />
+              <point x="335.5512820512821" y="448.0" />
+              <point x="335.5512820512821" y="153.0" />
+              <point x="268.6666666666667" y="153.0" />
+              <point x="95.0" y="66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.StateA">
+              <point x="78.0" y="28.5" />
+              <point x="299.05128205128204" y="448.0" />
+              <point x="272.78846153846155" y="448.0" />
+              <point x="51.99999999999999" y="-28.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.State" target="com.jeffrey.pattern.state.Context">
+              <point x="19.0" y="66.5" />
+              <point x="192.66666666666669" y="163.0" />
+              <point x="171.5" y="163.0" />
+              <point x="73.5" y="-66.5" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.State">
+              <point x="52.0" y="-28.5" />
+              <point x="273.05128205128204" y="163.0" />
+              <point x="230.66666666666669" y="163.0" />
+              <point x="57.0" y="66.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5449010654490106" x="168.90083798882688" y="338.5" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Methods</Category>

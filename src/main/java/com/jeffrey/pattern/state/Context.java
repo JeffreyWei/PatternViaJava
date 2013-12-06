@@ -14,6 +14,7 @@ public class Context {
 
 	public void setState(State state) {
 		this.state = state;
+		state.setContext(this);
 		System.out.println("当前状态:"+state.getClass().toString());
 	}
 
