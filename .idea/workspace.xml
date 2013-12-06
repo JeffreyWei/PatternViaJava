@@ -4,16 +4,8 @@
     <option name="FILTER_RESOLVED_ITEMS" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="add state pattern diagram&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/diagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteVisitorA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConceryeVisitorB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ElementStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Visitor.java" />
+    <list default="true" id="142a234b-ba89-4eed-8fa2-c9dafcde72d3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PatternViaJava.iws" />
@@ -91,7 +83,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" line="11" class="com.jeffrey.pattern.state.StateA" package="com.jeffrey.pattern.state">
-        <option name="ENABLED" value="true" />
+        <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="REMOVE_AFTER_HIT" value="false" />
@@ -106,7 +98,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Context.java" line="15" class="com.jeffrey.pattern.state.Context" package="com.jeffrey.pattern.state">
-        <option name="ENABLED" value="true" />
+        <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="REMOVE_AFTER_HIT" value="false" />
@@ -117,15 +109,15 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
-    <method_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/State.java" line="17" class="com.jeffrey.pattern.state.State" package="com.jeffrey.pattern.state">
         <option name="WATCH_ENTRY" value="true" />
         <option name="WATCH_EXIT" value="true" />
-        <option name="ENABLED" value="true" />
+        <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="REMOVE_AFTER_HIT" value="false" />
@@ -136,8 +128,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </method_breakpoints>
     <breakpoint_rules />
@@ -149,10 +141,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.6927083" vertical-offset="0" max-vertical-offset="399">
+            <state line="9" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.19791667" vertical-offset="0" max-vertical-offset="384">
               <folding />
             </state>
           </provider>
@@ -171,14 +172,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/observer/ChineseGovernment.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/bridge/Blue.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/factory/factorymethod/Client.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/bridge/Blue.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/mediator/Colleague.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/proxy/RealPhone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/command/Receiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/command/CommandImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/command/Command.java" />
@@ -229,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteVisitorA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConceryeVisitorB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Client.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -381,98 +382,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternViaJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -905,7 +814,8 @@
       <workItem from="1386205427965" duration="3850000" />
       <workItem from="1386220981339" duration="2855000" />
       <workItem from="1386230856821" duration="3217000" />
-      <workItem from="1386292070096" duration="3792000" />
+      <workItem from="1386292070096" duration="4391000" />
+      <workItem from="1386315174475" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="add README">
       <created>1386233287486</created>
@@ -923,11 +833,19 @@
       <created>1386296139332</created>
       <updated>1386296139332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add visitor pattern">
+      <created>1386296166016</created>
+      <updated>1386296166016</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add travis config&#10;">
+      <created>1386315312390</created>
+      <updated>1386315312390</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52638000" />
+    <option name="totallyTimeSpent" value="54080000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -951,10 +869,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -996,7 +914,9 @@
     <MESSAGE value="add README" />
     <MESSAGE value="fix bug:State pattern&#10;" />
     <MESSAGE value="add state pattern diagram&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state pattern diagram&#10;" />
+    <MESSAGE value="add visitor pattern" />
+    <MESSAGE value="add travis config&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add travis config&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,11 +926,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.6.0_43/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="19" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.33275262" vertical-offset="1234" max-vertical-offset="56848" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/adapter/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="29" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361" />
@@ -1050,8 +965,8 @@
             <node x="44.940476190476176" y="0.0">com.jeffrey.pattern.iterator.Iterator</node>
             <node x="84.73690476190475" y="157.0">com.jeffrey.pattern.iterator.Animal</node>
             <node x="4.5" y="548.0">com.jeffrey.pattern.iterator.Cat</node>
-            <node x="162.6535714285714" y="680.0">com.jeffrey.pattern.iterator.Client</node>
             <node x="10.5" y="340.0">com.jeffrey.pattern.iterator.ConcreteIterator</node>
+            <node x="162.6535714285714" y="680.0">com.jeffrey.pattern.iterator.Client</node>
           </nodes>
           <notes />
           <edges>
@@ -1135,8 +1050,8 @@
             <node x="204.0" y="468.0">com.jeffrey.pattern.mediator.Person1</node>
             <node x="181.6194444444444" y="0.0">com.jeffrey.pattern.mediator.Mediator</node>
             <node x="276.95138888888886" y="117.0">com.jeffrey.pattern.mediator.Colleague</node>
-            <node x="465.0" y="325.5">com.jeffrey.pattern.mediator.Person2</node>
             <node x="283.99999999999994" y="483.0">com.jeffrey.pattern.mediator.Client</node>
+            <node x="465.0" y="325.5">com.jeffrey.pattern.mediator.Person2</node>
           </nodes>
           <notes />
           <edges>
@@ -1203,23 +1118,23 @@
           <ID>JAVA</ID>
           <OriginalElement>com.jeffrey.pattern.observer</OriginalElement>
           <nodes>
-            <node x="9.148148148148152" y="433.0">com.jeffrey.pattern.observer.Client</node>
             <node x="68.49999999999997" y="0.0">com.jeffrey.pattern.observer.People</node>
+            <node x="9.148148148148152" y="433.0">com.jeffrey.pattern.observer.Client</node>
             <node x="260.5" y="351.0">com.jeffrey.pattern.observer.ChinesePeople</node>
             <node x="10.5" y="168.0">com.jeffrey.pattern.observer.Government</node>
             <node x="72.5" y="351.0">com.jeffrey.pattern.observer.ChineseGovernment</node>
           </nodes>
           <notes />
           <edges>
+            <edge source="com.jeffrey.pattern.observer.ChineseGovernment" target="com.jeffrey.pattern.observer.Government">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="66.5" />
+            </edge>
             <edge source="com.jeffrey.pattern.observer.ChinesePeople" target="com.jeffrey.pattern.observer.People">
               <point x="34.0" y="-16.0" />
               <point x="362.5" y="128.0" />
               <point x="231.92857142857144" y="128.0" />
               <point x="75.42857142857147" y="54.0" />
-            </edge>
-            <edge source="com.jeffrey.pattern.observer.ChineseGovernment" target="com.jeffrey.pattern.observer.Government">
-              <point x="0.0" y="-16.0" />
-              <point x="0.0" y="66.5" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="0.6509803921568628" x="-191.0" y="359.0" />
@@ -1272,25 +1187,29 @@
           <OriginalElement>com.jeffrey.pattern.strategy</OriginalElement>
           <nodes>
             <node x="340.00000000000006" y="142.5">com.jeffrey.pattern.strategy.BicycleStrategy</node>
-            <node x="427.952380952381" y="0.0">com.jeffrey.pattern.strategy.TravelStrategy</node>
             <node x="692.0" y="142.5">com.jeffrey.pattern.strategy.TrainStrategy</node>
-            <node x="0.0" y="117.0">com.jeffrey.pattern.strategy.Person</node>
+            <node x="427.952380952381" y="0.0">com.jeffrey.pattern.strategy.TravelStrategy</node>
             <node x="512.0000000000001" y="142.5">com.jeffrey.pattern.strategy.AirplaneStrategy</node>
+            <node x="0.0" y="117.0">com.jeffrey.pattern.strategy.Person</node>
             <node x="328.5238095238096" y="275.0">com.jeffrey.pattern.strategy.Client</node>
           </nodes>
           <notes />
           <edges>
+            <edge source="com.jeffrey.pattern.strategy.Client" target="com.jeffrey.pattern.strategy.AirplaneStrategy">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="com.jeffrey.pattern.strategy.AirplaneStrategy" target="com.jeffrey.pattern.strategy.TravelStrategy">
               <point x="0.0" y="-28.5" />
               <point x="592.0000000000001" y="97.0" />
               <point x="516.6190476190477" y="97.0" />
               <point x="12.666666666666629" y="28.5" />
             </edge>
-            <edge source="com.jeffrey.pattern.strategy.Client" target="com.jeffrey.pattern.strategy.AirplaneStrategy">
+            <edge source="com.jeffrey.pattern.strategy.Client" target="com.jeffrey.pattern.strategy.TravelStrategy">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="com.jeffrey.pattern.strategy.Client" target="com.jeffrey.pattern.strategy.TravelStrategy">
+            <edge source="com.jeffrey.pattern.strategy.Person" target="com.jeffrey.pattern.strategy.TravelStrategy">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1299,10 +1218,6 @@
               <point x="416.00000000000006" y="97.0" />
               <point x="491.28571428571433" y="97.0" />
               <point x="-12.666666666666686" y="28.5" />
-            </edge>
-            <edge source="com.jeffrey.pattern.strategy.Person" target="com.jeffrey.pattern.strategy.TravelStrategy">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
             </edge>
             <edge source="com.jeffrey.pattern.strategy.Client" target="com.jeffrey.pattern.strategy.Person">
               <point x="0.0" y="0.0" />
@@ -1330,30 +1245,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcreteClassA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="108" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="17" column="1" selection-start="108" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/ConcerteClassB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/AbstractClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <folding />
-        </state>
+        <state line="11" column="18" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/abstractmethod/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361" />
       </provider>
     </entry>
     <entry file="uml://JAVA/com.jeffrey.pattern.abstractmethod">
@@ -1397,9 +1304,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="439" selection-end="439" vertical-scroll-proportion="-8.233334" vertical-offset="57" max-vertical-offset="1216">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="439" selection-end="439" vertical-scroll-proportion="-8.233334" vertical-offset="57" max-vertical-offset="1216" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1407,9 +1312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
+        <state line="8" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/StateA.java">
@@ -1442,8 +1345,8 @@
           <ID>JAVA</ID>
           <OriginalElement>com.jeffrey.pattern.state</OriginalElement>
           <nodes>
-            <node x="117.05128205128206" y="366.0">com.jeffrey.pattern.state.StateB</node>
             <node x="0.0" y="183.0">com.jeffrey.pattern.state.Context</node>
+            <node x="117.05128205128206" y="366.0">com.jeffrey.pattern.state.StateB</node>
             <node x="172.66666666666669" y="65.5">com.jeffrey.pattern.state.State</node>
             <node x="20.333333333333343" y="580.0">com.jeffrey.pattern.state.Client</node>
             <node x="116.78846153846155" y="473.0">com.jeffrey.pattern.state.StateA</node>
@@ -1482,22 +1385,22 @@
               <point x="268.6666666666667" y="153.0" />
               <point x="95.0" y="66.5" />
             </edge>
-            <edge source="com.jeffrey.pattern.state.State" target="com.jeffrey.pattern.state.Context">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.StateA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.State">
               <point x="52.0" y="-28.5" />
               <point x="273.05128205128204" y="163.0" />
               <point x="230.66666666666669" y="163.0" />
               <point x="57.0" y="66.5" />
             </edge>
+            <edge source="com.jeffrey.pattern.state.StateB" target="com.jeffrey.pattern.state.StateA">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.jeffrey.pattern.state.State" target="com.jeffrey.pattern.state.Context">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.5449010654490106" x="-360.5530726256983" y="450.4469273743017" />
+          <settings layout="Hierarchic Group" zoom="0.5449010654490106" x="-361.0" y="450.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1510,61 +1413,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="10" column="37" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConceryeVisitorB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="170" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="15" column="170" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="10" column="41" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ElementStructure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="627">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#217#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="35" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteVisitorA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="170" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="15" column="170" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/ConcerteElementB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="14" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
+        <state line="10" column="49" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/visitor/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <folding />
-        </state>
+        <state line="11" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
       </provider>
     </entry>
     <entry file="uml://JAVA/com.jeffrey.pattern.visitor">
@@ -1573,13 +1457,13 @@
           <ID>JAVA</ID>
           <OriginalElement>com.jeffrey.pattern.visitor</OriginalElement>
           <nodes>
-            <node x="676.0" y="378.0">com.jeffrey.pattern.visitor.ConcerteVisitorA</node>
             <node x="512.0" y="188.0">com.jeffrey.pattern.visitor.Visitor</node>
-            <node x="720.6955555555555" y="548.0">com.jeffrey.pattern.visitor.Client</node>
-            <node x="530.5377777777777" y="0.0">com.jeffrey.pattern.visitor.Element</node>
+            <node x="676.0" y="378.0">com.jeffrey.pattern.visitor.ConcerteVisitorA</node>
             <node x="1004.0" y="378.0">com.jeffrey.pattern.visitor.ConcerteElementB</node>
-            <node x="348.0" y="378.0">com.jeffrey.pattern.visitor.ConceryeVisitorB</node>
+            <node x="530.5377777777777" y="0.0">com.jeffrey.pattern.visitor.Element</node>
+            <node x="720.6955555555555" y="548.0">com.jeffrey.pattern.visitor.Client</node>
             <node x="1252.0" y="378.0">com.jeffrey.pattern.visitor.ConcerteElementA</node>
+            <node x="348.0" y="378.0">com.jeffrey.pattern.visitor.ConceryeVisitorB</node>
             <node x="0.0" y="340.0">com.jeffrey.pattern.visitor.ElementStructure</node>
           </nodes>
           <notes />
@@ -1657,7 +1541,7 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.5312" x="196.8900602409638" y="441.8072289156626" />
+          <settings layout="Hierarchic Group" zoom="0.5312" x="197.0" y="442.0" />
           <SelectedNodes>
             <node>com.jeffrey.pattern.visitor.ConceryeVisitorB</node>
           </SelectedNodes>
@@ -1672,7 +1556,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/state/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.6927083" vertical-offset="0" max-vertical-offset="399">
+        <state line="9" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.19791667" vertical-offset="0" max-vertical-offset="384">
           <folding />
         </state>
       </provider>
