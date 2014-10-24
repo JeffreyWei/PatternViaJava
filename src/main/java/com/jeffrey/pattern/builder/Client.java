@@ -1,7 +1,7 @@
 package com.jeffrey.pattern.builder;
 
 /**
-* ¹¦ÄÜËµÃ÷£º
+ * åŠŸèƒ½è¯´æ˜ï¼š
  *
  * @author weij
  */

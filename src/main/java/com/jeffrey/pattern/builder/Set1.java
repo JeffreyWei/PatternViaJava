@@ -1,7 +1,7 @@
 package com.jeffrey.pattern.builder;
 
 /**
- * ¹¦ÄÜËµÃ÷£º
+ * åŠŸèƒ½è¯´æ˜Žï¼š
  *
  * @author weij
  */
@@ -9,7 +9,7 @@ public class Set1 implements KFC {
 	private Food food=new Food();
 	@Override
 	public void makeFood() {
-		food.add("°Â¶ûÁ¼¿¾¼¦ÍÈ±¤");
+		food.add("å¥¥å°”è‰¯çƒ¤é¸¡è…¿å ¡");
 	}
 
 	@Override

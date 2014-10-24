@@ -1,7 +1,7 @@
 package com.jeffrey.pattern.factory.abstractfactory;
 
 /**
- * 功能说明：
+ *鍔熻兘璇存槑
  *
  * @author weij
  */
