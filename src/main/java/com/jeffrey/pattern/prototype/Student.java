@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 /**
- * ¹¦ÄÜËµÃ÷£º
+ * åŠŸèƒ½è¯´æ˜ï¼š
  *
  * @author weij
  */
@@ -49,33 +49,33 @@ public class Student implements Serializable, Cloneable {
 	}
 
 	/**
-	 * Éî²ã¿½±´
+	 * æ·±å±‚æ‹·è´
 	 *
 	 * @return
 	 * @throws IOException
 	 * @throws ClassNotFoundException
 	 */
 	public Object deepCopy() throws IOException, ClassNotFoundException {
-		//×Ö½ÚÊı×éÊä³öÁ÷£¬Ôİ´æµ½ÄÚ´æÖĞ
+		//å­—èŠ‚æ•°ç»„è¾“å‡ºæµï¼Œæš‚å­˜åˆ°å†…å­˜ä¸­
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
-		//ĞòÁĞ»¯
+		//åºåˆ—åŒ–
 		ObjectOutputStream oos = new ObjectOutputStream(bos);
 		oos.writeObject(this);
 		ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
 		ObjectInputStream ois = new ObjectInputStream(bis);
-		//·´ĞòÁĞ»¯
+		//ååºåˆ—åŒ–
 		return ois.readObject();
 	}
 
 	/**
-	 * Ç³²ã¿½±´
+	 * æµ…å±‚æ‹·è´
 	 *
 	 * @return
 	 * @throws CloneNotSupportedException
 	 */
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		//¿ËÂ¡Employee¶ÔÏó²¢ÊÖ¶¯µÄ½øÒ»²½¿ËÂ¡Employee¶ÔÏóÖĞ°üº¬µÄEmployer¶ÔÏó
+		//å…‹éš†Employeeå¯¹è±¡å¹¶æ‰‹åŠ¨çš„è¿›ä¸€æ­¥å…‹éš†Employeeå¯¹è±¡ä¸­åŒ…å«çš„Employerå¯¹è±¡
 		Student student = (Student) super.clone();
 		student.setAge(this.age);
 		student.setName(this.name);

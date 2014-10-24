@@ -3,7 +3,7 @@ package com.jeffrey.pattern.prototype;
 import java.io.Serializable;
 
 /**
- * ¹¦ÄÜËµÃ÷£º
+ * åŠŸèƒ½è¯´æ˜ï¼š
  *
  * @author weij
  */

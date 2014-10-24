@@ -3,7 +3,7 @@ package com.jeffrey.pattern.prototype;
 import java.io.IOException;
 
 /**
- * ¹¦ÄÜËµÃ÷£º
+ * åŠŸèƒ½è¯´æ˜ï¼š
  *
  * @author weij
  */
@@ -13,14 +13,14 @@ public class Client {
 		Student stu1=new Student("A",12,pet);
 		try {
 			Student stu2=(Student)stu1.clone();
-			System.out.println("Ç³²ã¿½±´");
+			System.out.println("æµ…å±‚æ‹·è´");
 			System.out.println(stu1.getPet()==stu2.getPet());
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}
 		try {
 			Student stu3=(Student)stu1.deepCopy();
-			System.out.println("Éî²ã¿½±´");
+			System.out.println("æ·±å±‚æ‹·è´");
 			System.out.println(stu1.getPet()==stu3.getPet());
 		} catch (IOException e) {
 			e.printStackTrace();
