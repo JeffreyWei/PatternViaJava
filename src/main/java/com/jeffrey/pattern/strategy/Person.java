@@ -11,6 +11,7 @@ public class Person {
 	public void setTravelStrategy(TravelStrategy travelStrategy) {
 		this.travelStrategy = travelStrategy;
 	}
+
 	public void travel(){
 		this.travelStrategy.travel();
 	}

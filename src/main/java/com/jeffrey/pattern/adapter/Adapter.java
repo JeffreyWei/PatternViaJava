@@ -15,6 +15,6 @@ public class Adapter extends Target{
 	@Override
 	public void describe() {
 		//super.describe();
-		adaptee.describe();
+		this.adaptee.describe();
 	}
 }
