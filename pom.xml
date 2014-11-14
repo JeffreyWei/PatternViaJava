@@ -22,9 +22,9 @@
 
 	<!-- 待修改 -->
 	<scm>
-		<connection>scm:git:git@github.com:code4craft/webmagic.git</connection>
-		<developerConnection>scm:git:git@github.com:code4craft/webmagic.git</developerConnection>
-		<url>git@github.com:code4craft/webmagic.git</url>
+		<connection></connection>
+		<developerConnection></developerConnection>
+		<url></url>
 	</scm>
 
 	<licenses>
