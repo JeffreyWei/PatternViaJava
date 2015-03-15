@@ -1,9 +1,23 @@
 package com.jeffrey.pattern.singleton;
 
 /**
- * ¹¦ÄÜËµÃ÷£º
+ * å»¶è¿ŸåŠ è½½ï¼Œçº¿ç¨‹å®‰å…¨
  *
  * @author weij
  */
 public class MysqlConnection {
+
+    private static Object obj;
+
+    public static Object getObj() {
+        if (obj == null) {
+            synchronized (MysqlConnection.class) {
+                if (obj == null) {
+                    obj = new Object();
+                }
+            }
+        }
+        return obj;
+    }
 }
+

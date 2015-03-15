@@ -14,6 +14,6 @@ public class Facade {
 	}
 	public void M2(){
 		m2.foo();
-		m1.foo();;
+		m1.foo();
 	}
 }
