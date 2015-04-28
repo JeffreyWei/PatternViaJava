@@ -1,7 +1,6 @@
 package com.jeffrey.pattern.singleton;
 
 /**
- * ����˵����
  *
  * @author weij
  */
