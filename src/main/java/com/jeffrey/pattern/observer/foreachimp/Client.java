@@ -1,4 +1,4 @@
-package com.jeffrey.pattern.observer;
+package com.jeffrey.pattern.observer.foreachimp;
 
 /**
  * 功能说明：
