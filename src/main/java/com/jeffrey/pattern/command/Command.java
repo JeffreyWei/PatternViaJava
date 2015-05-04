@@ -1,18 +1,8 @@
 package com.jeffrey.pattern.command;
 
 /**
- * 功能说明：
- *
- * @author weij
+ * Created by wei on 15/5/4.
  */
-public abstract class Command {
-	private Receiver receiver;
-
-	public Command(Receiver receiver) {
-		this.receiver = receiver;
-	}
-
-	public void exec() {
-		receiver.action();
-	}
+public interface Command {
+    public void execute();
 }

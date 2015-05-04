@@ -7,9 +7,9 @@ package com.jeffrey.pattern.command;
  */
 public class Client {
 	public static void main(String[] args) {
-		Receiver receiver = new Receiver("Just do it");
-		Command command = new CommandImp(receiver);
-		Invoke invoke = new Invoke(command);
+		Human human=new Human();
+		HumanWorkCommand humanWorkCommand = new HumanWorkCommand(human);
+		Invoke invoke=new Invoke(humanWorkCommand);
 		invoke.callMethod();
 	}
 }
