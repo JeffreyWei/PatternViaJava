@@ -13,13 +13,12 @@ public class Client {
         Character thor = new Character("Thor", 100, 200);
         System.out.println("=======auto fight========");
         thor.setState(new Normal());
-        boolean guard = true;
         do {
             if (Dead.class.isInstance(thor.startFight())) {
-                guard = false;
+                break;
             }
         }
-        while (guard);
+        while (true);
         System.out.println("=======fight  end========");
     }
 }
