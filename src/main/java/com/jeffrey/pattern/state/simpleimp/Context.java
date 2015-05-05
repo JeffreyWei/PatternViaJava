@@ -1,4 +1,6 @@
-package com.jeffrey.pattern.state;
+package com.jeffrey.pattern.state.simpleimp;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 功能说明：
@@ -7,6 +9,7 @@ package com.jeffrey.pattern.state;
  */
 public class Context {
 	private State state;
+	private static AtomicInteger count=new AtomicInteger(0);
 
 	public State getState() {
 		return state;
@@ -19,6 +22,7 @@ public class Context {
 	}
 
 	public void request(){
+		count.incrementAndGet();
 		this.state.handle(this);
 	}
 }

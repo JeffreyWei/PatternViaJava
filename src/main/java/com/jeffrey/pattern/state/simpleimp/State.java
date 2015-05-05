@@ -1,4 +1,4 @@
-package com.jeffrey.pattern.state;
+package com.jeffrey.pattern.state.simpleimp;
 
 /**
  * 功能说明：
