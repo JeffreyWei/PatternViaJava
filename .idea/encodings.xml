@@ -2,8 +2,6 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/adapter/Adapter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/adapter/Target.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/builder/Client.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/builder/Food.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/builder/KFC.java" charset="UTF-8" />
@@ -15,4 +13,3 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/jeffrey/pattern/prototype/Student.java" charset="UTF-8" />
   </component>
 </project>
-

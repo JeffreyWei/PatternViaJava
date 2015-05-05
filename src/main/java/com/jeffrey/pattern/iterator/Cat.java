@@ -8,7 +8,7 @@ package com.jeffrey.pattern.iterator;
 public class Cat extends Animal {
 	@Override
 	public Iterator getIterator() {
-		return new ConcreteIterator(this);
+		return new AnimalConcreteIterator(this);
 	}
 
 	@Override

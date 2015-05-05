@@ -6,7 +6,7 @@ package com.jeffrey.pattern.iterator;
  * @author weij
  */
 public interface Iterator {
-	public void previous();
-	public void next();
-	public Object currentObject();
+	public String previous();
+	public String next();
+	public String currentObject();
 }

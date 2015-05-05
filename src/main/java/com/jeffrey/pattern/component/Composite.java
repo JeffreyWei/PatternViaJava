@@ -9,7 +9,12 @@ import java.util.List;
  * @author weij
  */
 public class Composite implements Component {
+	private String name;
 	private List<Component> componentList = new ArrayList<Component>();
+
+	public Composite(String name) {
+		this.name = name;
+	}
 
 	@Override
 	public void add(Component component) {

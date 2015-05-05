@@ -6,7 +6,7 @@ package com.jeffrey.pattern.state;
  * @author weij
  */
 public abstract class State {
-	private Context context;
+	protected Context context;
 
 	public Context getContext() {
 		return context;
