@@ -8,6 +8,7 @@ import com.jeffrey.pattern.state.gamestate.*;
 public class Dead extends CharacterState {
     @Override
     public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character) {
+
         return null;
     }
 }

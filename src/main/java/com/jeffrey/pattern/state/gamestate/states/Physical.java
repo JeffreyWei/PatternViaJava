@@ -8,6 +8,6 @@ import com.jeffrey.pattern.state.gamestate.*;
 public class Physical extends CharacterState {
     @Override
     public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character) {
-        return null;
+        return character.setState(new Normal());
     }
 }

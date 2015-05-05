@@ -7,7 +7,8 @@ import com.jeffrey.pattern.state.gamestate.*;
  */
 public class Defense extends CharacterState {
     @Override
-    public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character) {
-        return null;
+    public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character)
+    {
+        return character.setState(new Normal());
     }
 }

@@ -43,7 +43,13 @@ public class Character {
         return state;
     }
 
-    public void setState(CharacterState state) {
+    public CharacterState setState(CharacterState state) {
         this.state = state;
+        System.out.println("战斗报告--HP:" + this.HP + " MP:" + this.MP + " State:" + state.getClass().getName());
+        return state;
+    }
+
+    public CharacterState startFight() {
+        return this.state.handle(this);
     }
 }
