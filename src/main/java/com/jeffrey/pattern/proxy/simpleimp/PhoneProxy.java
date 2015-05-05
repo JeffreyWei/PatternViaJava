@@ -1,4 +1,4 @@
-package com.jeffrey.pattern.proxy;
+package com.jeffrey.pattern.proxy.simpleimp;
 
 
 /**
@@ -6,7 +6,7 @@ package com.jeffrey.pattern.proxy;
  *
  * @author weij
  */
-public class PhoneProxy implements com.jeffrey.pattern.proxy.Phone {
+public class PhoneProxy implements Phone {
 	private Phone phone;
 	public PhoneProxy(Phone phone){
 		this.phone=phone;

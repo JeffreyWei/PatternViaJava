@@ -26,8 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PatternViaJava" target="1.6" />
+      <module name="PatternViaJava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
-

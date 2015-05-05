@@ -1,4 +1,4 @@
-package com.jeffrey.pattern.proxy;
+package com.jeffrey.pattern.proxy.simpleimp;
 
 /**
  * 功能说明：
