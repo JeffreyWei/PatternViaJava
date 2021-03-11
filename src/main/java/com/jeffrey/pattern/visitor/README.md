@@ -1,0 +1,1 @@
+[命令模式](https://www.jianshu.com/p/1f1049d0a0f4)
