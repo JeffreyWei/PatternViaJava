@@ -21,7 +21,8 @@ public class ElementStructure {
 	}
 
 	private Visitor visitor;
-	public void accept(Visitor visitor){
-		this.visitor=visitor;
+
+	public void accept(Visitor visitor) {
+		this.visitor = visitor;
 	}
 }
