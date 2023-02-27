@@ -7,7 +7,7 @@ package com.jeffrey.pattern.abstractmethod;
  */
 public class Client {
 	public static void main(String[] args) {
-AbstractClass abstractClass=new ConcreteClassA();
+		AbstractClass abstractClass = new ConcreteClassA();
 		abstractClass.templateMethod();
 	}
 }
