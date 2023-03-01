@@ -7,7 +7,7 @@ package com.jeffrey.pattern.bridge;
  */
 public class Client {
 	public static void main(String[] args) {
-		Pen pen=new BigPen();
+		Pen pen = new BigPen();
 		pen.setColor(new Blue());
 		pen.draw();
 	}

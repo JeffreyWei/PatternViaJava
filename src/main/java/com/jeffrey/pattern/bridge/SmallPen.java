@@ -5,7 +5,7 @@ package com.jeffrey.pattern.bridge;
  *
  * @author weij
  */
-public class SmallPen extends Pen{
+public class SmallPen extends Pen {
 	@Override
 	public void draw() {
 		System.out.println(this.getClass().toString());

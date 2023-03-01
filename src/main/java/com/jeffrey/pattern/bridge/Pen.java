@@ -6,9 +6,10 @@ package com.jeffrey.pattern.bridge;
  * @author weij
  */
 public abstract class Pen {
-	Color color ;
-	public void setColor(Color c){
-		this.color=c;
+	Color color;
+
+	public void setColor(Color c) {
+		this.color = c;
 	}
 
 	public void draw() {

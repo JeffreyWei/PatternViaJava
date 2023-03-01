@@ -5,5 +5,5 @@ package com.jeffrey.pattern.bridge;
  *
  * @author weij
  */
-public class Blue implements  Color {
+public class Blue implements Color {
 }
