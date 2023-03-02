@@ -7,9 +7,9 @@ package com.jeffrey.pattern.builder;
  */
 public class Client {
 	public static void main(String[] args) {
-		Waiter waiter=new Waiter();
-		KFC f1=new Set1();
-		KFC f2=new Set2();
+		Waiter waiter = new Waiter();
+		KFC f1 = new Set1();
+		KFC f2 = new Set2();
 		waiter.sell(f1);
 		waiter.sell(f2);
 	}

@@ -9,16 +9,19 @@ import java.util.List;
  * @author weij
  */
 public class Food {
-	private List<String> foodList=new ArrayList<String>();
-	public String add(String foodName){
+	private List<String> foodList = new ArrayList<String>();
+
+	public String add(String foodName) {
 		foodList.add(foodName);
 		return foodName;
 	}
-	public void clear(){
+
+	public void clear() {
 		foodList.clear();
 	}
-	public void showFood(){
-		for (String str:foodList){
+
+	public void showFood() {
+		for (String str : foodList) {
 			System.out.println("Your order is:");
 			System.out.println(str);
 			System.out.println("=================");
