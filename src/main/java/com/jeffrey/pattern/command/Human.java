@@ -5,15 +5,15 @@ package com.jeffrey.pattern.command;
  */
 public class Human {
 
-    public void work() {
-        System.out.println("work");
-    }
+	public void work() {
+		System.out.println("work");
+	}
 
-    public void sleep() {
-        System.out.println("sleep");
-    }
+	public void sleep() {
+		System.out.println("sleep");
+	}
 
-    public void eat() {
-        System.out.println("eat");
-    }
+	public void eat() {
+		System.out.println("eat");
+	}
 }
