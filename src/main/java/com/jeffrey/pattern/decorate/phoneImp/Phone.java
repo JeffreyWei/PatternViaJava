@@ -7,5 +7,6 @@ package com.jeffrey.pattern.decorate.phoneImp;
  */
 public interface Phone {
 	public void sendMessage();
+
 	public void callPhone();
 }

@@ -8,11 +8,11 @@ package com.jeffrey.pattern.decorate.phoneImp;
 public class Iphone implements Phone {
 	@Override
 	public void sendMessage() {
-		System.out.println(this.getClass().toString()+"\t"+Thread.currentThread().getStackTrace()[1].getMethodName());
-			}
+		System.out.println(this.getClass().toString() + "\t" + Thread.currentThread().getStackTrace()[1].getMethodName());
+	}
 
 	@Override
 	public void callPhone() {
-		System.out.println(this.getClass().toString()+"\t"+Thread.currentThread().getStackTrace()[1].getMethodName());
+		System.out.println(this.getClass().toString() + "\t" + Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 }
