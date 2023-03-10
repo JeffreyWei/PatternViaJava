@@ -6,7 +6,7 @@ package com.jeffrey.pattern.facade;
  * @author weij
  */
 public class Method2 {
-	public void foo(){
-		System.out.println(getClass().toString()+"\t"+Thread.currentThread().getStackTrace()[1].getMethodName());
+	public void foo() {
+		System.out.println(getClass().toString() + "\t" + Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 }
