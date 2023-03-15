@@ -1,7 +1,7 @@
 package com.jeffrey.pattern.factory.simplefactory;
 
 /**
- *功能说明
+ * 功能说明
  *
  * @author weij
  */
@@ -10,7 +10,7 @@ public class LenovoFactory {
 		//reflector
 		try {
 			Class c = Class.forName(seriesStr);
-			return (YSeries)c.newInstance();
+			return (YSeries) c.newInstance();
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (InstantiationException e) {
