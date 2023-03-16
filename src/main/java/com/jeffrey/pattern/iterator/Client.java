@@ -9,11 +9,11 @@ package com.jeffrey.pattern.iterator;
  */
 public class Client {
 	public static void main(String[] args) {
-		Animal cats=new Cat();
+		Animal cats = new Cat();
 		cats.addAnimal("xiaoqiu");
 		cats.addAnimal("xiaohuang");
 		cats.addAnimal("wumi");
-		Iterator iterator=cats.getIterator();
+		Iterator iterator = cats.getIterator();
 		System.out.println(iterator.currentObject());
 		iterator.next();
 		iterator.next();

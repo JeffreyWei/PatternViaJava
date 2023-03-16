@@ -9,8 +9,10 @@ import java.util.List;
  * @author weij
  */
 public abstract class Animal {
-	public List<String> list=new ArrayList<String>();
+	public List<String> list = new ArrayList<String>();
 	private Iterator iterator;
+
 	public abstract Iterator getIterator();
+
 	public abstract void addAnimal(String name);
 }
