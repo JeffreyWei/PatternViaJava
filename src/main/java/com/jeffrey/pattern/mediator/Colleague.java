@@ -12,12 +12,12 @@ public abstract class Colleague {
 		this.mediator = mediator;
 	}
 
-	public void send(){
-		mediator.sendMessage("Message from "+this.getClass().toString(),this);
+	public void send() {
+		mediator.sendMessage("Message from " + this.getClass().toString(), this);
 	}
 
-	public void receive(String message){
-		System.out.println(this.getClass().toString()+" get message:");
+	public void receive(String message) {
+		System.out.println(this.getClass().toString() + " get message:");
 		System.out.println(message);
 	}
 }

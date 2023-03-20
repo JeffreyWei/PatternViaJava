@@ -6,5 +6,5 @@ package com.jeffrey.pattern.mediator;
  * @author weij
  */
 public interface Mediator {
-	public void sendMessage(String message,Colleague colFrom);
+	public void sendMessage(String message, Colleague colFrom);
 }

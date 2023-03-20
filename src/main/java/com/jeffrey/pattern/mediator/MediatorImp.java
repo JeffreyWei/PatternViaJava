@@ -20,9 +20,9 @@ public class MediatorImp implements Mediator {
 
 	@Override
 	public void sendMessage(String message, Colleague colFrom) {
-		if (colFrom==col1){
+		if (colFrom == col1) {
 			col2.receive(message);
-		}else{
+		} else {
 			col1.receive(message);
 		}
 	}
