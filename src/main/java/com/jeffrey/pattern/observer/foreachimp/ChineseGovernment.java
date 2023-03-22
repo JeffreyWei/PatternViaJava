@@ -5,6 +5,6 @@ package com.jeffrey.pattern.observer.foreachimp;
  *
  * @author weij
  */
-public class ChineseGovernment extends Government{
+public class ChineseGovernment extends Government {
 
 }

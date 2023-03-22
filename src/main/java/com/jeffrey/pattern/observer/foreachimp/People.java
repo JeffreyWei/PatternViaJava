@@ -14,7 +14,7 @@ public abstract class People {
 		this.government = government;
 	}
 
-	public void update(String message){
-		System.out.println(name+"收到通知:"+message);
+	public void update(String message) {
+		System.out.println(name + "收到通知:" + message);
 	}
 }
