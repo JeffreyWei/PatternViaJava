@@ -12,7 +12,8 @@ public class Producer extends Thread {
 	private final ChannelQueue queue;
 	private final String producerName;
 	private final Random random;
-	public Producer(ChannelQueue queue, String producerName,long seed) {
+
+	public Producer(ChannelQueue queue, String producerName, long seed) {
 		this.queue = queue;
 		this.producerName = producerName;
 		random = new Random(seed);
@@ -37,7 +38,7 @@ public class Producer extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			queue.put(producerName+" paoduced at"+new Date());
+			queue.put(producerName + " paoduced at" + new Date());
 		}
 	}
 }

@@ -7,11 +7,12 @@ import java.util.Random;
  *
  * @author weij
  */
-public class Consumer  extends Thread {
+public class Consumer extends Thread {
 	private final ChannelQueue queue;
 	private final String consumerName;
-private final Random random;
-	public Consumer(ChannelQueue queue, String consumerName,long seed) {
+	private final Random random;
+
+	public Consumer(ChannelQueue queue, String consumerName, long seed) {
 		this.queue = queue;
 		this.consumerName = consumerName;
 		random = new Random(seed);
@@ -30,9 +31,9 @@ private final Random random;
 	 */
 	@Override
 	public void run() {
-		while (true){
-			String value=queue.get(null);
-			System.out.println(consumerName+" get value:"+value);
+		while (true) {
+			String value = queue.get(null);
+			System.out.println(consumerName + " get value:" + value);
 			try {
 				Thread.sleep(random.nextInt(1000));
 			} catch (InterruptedException e) {

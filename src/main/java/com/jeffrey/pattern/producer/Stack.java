@@ -6,13 +6,13 @@ package com.jeffrey.pattern.producer;
  * @author weij
  */
 public class Stack implements ChannelQueue {
-	private  String[] queue;
+	private String[] queue;
 	private int head;
 	private int tail;
 	private int count;
 
 	public Stack(int size) {
-		queue=new String[size];
+		queue = new String[size];
 		this.head = 0;
 		this.tail = 0;
 		this.count = 0;
@@ -20,15 +20,15 @@ public class Stack implements ChannelQueue {
 
 	@Override
 	public synchronized void put(String key) {
-		while (count>=queue.length) {
+		while (count >= queue.length) {
 			try {
 				wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		queue[tail]=key;
-		tail=(tail+1)%queue.length;
+		queue[tail] = key;
+		tail = (tail + 1) % queue.length;
 		count++;
 		notifyAll();
 	}
@@ -42,7 +42,7 @@ public class Stack implements ChannelQueue {
 				e.printStackTrace();
 			}
 		}
-		String value=queue[head];
+		String value = queue[head];
 		head = (head + 1) % queue.length;
 		count--;
 		notifyAll();
