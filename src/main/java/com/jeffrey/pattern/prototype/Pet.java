@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * @author weij
  */
-public class Pet implements Serializable{
+public class Pet implements Serializable {
 	private static final long serialVersionUID = -5790998556508104079L;
 	private String name;
 
@@ -18,7 +18,8 @@ public class Pet implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Pet(String name){
-		this.name=name;
+
+	public Pet(String name) {
+		this.name = name;
 	}
 }
