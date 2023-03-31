@@ -8,16 +8,16 @@ import java.rmi.Remote;
  */
 public class Server {
 
-    public static void main(String[] args) {
-        try {
-            //both method
-            Remote server = new ServerRemoteImpl();
-            //ServerRemote server=new ServerRemoteImpl();
-            //open local port
-            java.rmi.registry.LocateRegistry.createRegistry(5099);
-            Naming.rebind("//:5099/RemoteServer", server);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+	public static void main(String[] args) {
+		try {
+			//both method
+			Remote server = new ServerRemoteImpl();
+			//ServerRemote server=new ServerRemoteImpl();
+			//open local port
+			java.rmi.registry.LocateRegistry.createRegistry(5099);
+			Naming.rebind("//:5099/RemoteServer", server);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
