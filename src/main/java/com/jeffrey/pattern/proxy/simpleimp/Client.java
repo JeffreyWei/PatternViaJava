@@ -8,7 +8,7 @@ package com.jeffrey.pattern.proxy.simpleimp;
 public class Client {
 	public static void main(String[] args) {
 		Phone phone1 = new RealPhone();
-		Phone phone2=new PhoneProxy(phone1);
+		Phone phone2 = new PhoneProxy(phone1);
 		phone2.call();
 	}
 }

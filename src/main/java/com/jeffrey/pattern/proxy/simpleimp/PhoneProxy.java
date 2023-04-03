@@ -8,9 +8,11 @@ package com.jeffrey.pattern.proxy.simpleimp;
  */
 public class PhoneProxy implements Phone {
 	private Phone phone;
-	public PhoneProxy(Phone phone){
-		this.phone=phone;
+
+	public PhoneProxy(Phone phone) {
+		this.phone = phone;
 	}
+
 	@Override
 	public void call() {
 		System.out.println("Proxy start");
