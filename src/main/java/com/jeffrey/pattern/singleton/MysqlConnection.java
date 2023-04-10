@@ -7,17 +7,17 @@ package com.jeffrey.pattern.singleton;
  */
 public class MysqlConnection {
 
-    private static Object obj;
+	private static Object obj;
 
-    public static Object getObj() {
-        if (obj == null) {
-            synchronized (MysqlConnection.class) {
-                if (obj == null) {
-                    obj = new Object();
-                }
-            }
-        }
-        return obj;
-    }
+	public static Object getObj() {
+		if (obj == null) {
+			synchronized (MysqlConnection.class) {
+				if (obj == null) {
+					obj = new Object();
+				}
+			}
+		}
+		return obj;
+	}
 }
 
