@@ -12,7 +12,7 @@ public class Person {
 		this.travelStrategy = travelStrategy;
 	}
 
-	public void travel(){
+	public void travel() {
 		this.travelStrategy.travel();
 	}
 }

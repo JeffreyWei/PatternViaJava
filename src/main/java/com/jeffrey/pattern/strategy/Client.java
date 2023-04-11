@@ -8,8 +8,8 @@ package com.jeffrey.pattern.strategy;
  */
 public class Client {
 	public static void main(String[] args) {
-		TravelStrategy airplaneStrategy=new AirplaneStrategy();
-		Person person=new Person();
+		TravelStrategy airplaneStrategy = new AirplaneStrategy();
+		Person person = new Person();
 		person.setTravelStrategy(airplaneStrategy);
 		person.travel();
 	}
