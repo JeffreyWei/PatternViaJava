@@ -6,9 +6,9 @@ import com.jeffrey.pattern.state.gamestate.*;
  * Created by wei on 15/5/5.
  */
 public class Dead extends CharacterState {
-    @Override
-    public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character) {
+	@Override
+	public CharacterState handle(com.jeffrey.pattern.state.gamestate.Character character) {
 
-        return null;
-    }
+		return null;
+	}
 }
