@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class Context {
 	private State state;
-	private static AtomicInteger count=new AtomicInteger(0);
+	private static AtomicInteger count = new AtomicInteger(0);
 
 	public State getState() {
 		return state;
@@ -18,10 +18,10 @@ public class Context {
 	public void setState(State state) {
 		this.state = state;
 		state.setContext(this);
-		System.out.println("当前状态:"+state.getClass().toString());
+		System.out.println("当前状态:" + state.getClass().toString());
 	}
 
-	public void request(){
+	public void request() {
 		count.incrementAndGet();
 		this.state.handle(this);
 	}
