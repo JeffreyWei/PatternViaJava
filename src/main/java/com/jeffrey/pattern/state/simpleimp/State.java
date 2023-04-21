@@ -15,5 +15,6 @@ public abstract class State {
 	public void setContext(Context context) {
 		this.context = context;
 	}
+
 	public abstract void handle(Context context);
 }
